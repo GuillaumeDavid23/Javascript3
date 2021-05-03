@@ -17,7 +17,7 @@ while (yearMin <= yearMax) {
     }
 
     if (bissextile == true){
-        console.log('%c'+yearMin, 'color: #bada55');
+        console.log('%c'+yearMin, 'color: red');
     }
     else{
         console.log(yearMin);
